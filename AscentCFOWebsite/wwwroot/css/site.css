@@ -54,3 +54,31 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+/*
+    MY CODE:
+*/
+
+.infoNavbar {
+    overflow: hidden;
+    background-color: #004370;
+    border: 1px solid #001870;
+    position: fixed;
+    bottom: 60px;
+}
+
+.infoNavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.infoNavbar a:hover {
+    background: #f2f2f2;
+    color: #e8c547;
+}
