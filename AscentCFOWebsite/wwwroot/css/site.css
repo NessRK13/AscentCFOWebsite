@@ -63,22 +63,26 @@ body {
 .infoNavbar {
     overflow: hidden;
     background-color: #004370;
-    border: 1px solid #001870;
+    border-top: 1px solid #001870;
+    bottom: 0;
     position: fixed;
-    bottom: 60px;
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .infoNavbar a {
-    float: left;
-    display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 7px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .infoNavbar a:hover {
-    background: #f2f2f2;
-    color: #e8c547;
+    background: #e8c547;
+    color: #004370;
 }
