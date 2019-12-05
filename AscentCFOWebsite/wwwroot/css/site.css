@@ -60,6 +60,12 @@ body {
     MY CODE:
 */
 
+body {
+    background: url(../Images/mountain_final-1@0,25x.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/*--------------------------------------------*/
 .infoNavbar {
     overflow: hidden;
     background-color: #004370;
