@@ -60,6 +60,11 @@ body {
     MY CODE:
 */
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 #welcomeImage {
     max-width: 100%;
     height: auto;
