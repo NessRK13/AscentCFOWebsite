@@ -2,3 +2,8 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+//This function makes the navbar-default.scrolled option possible: Check site.css
+$(window).scroll(function () {
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
