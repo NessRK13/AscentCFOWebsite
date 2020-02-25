@@ -61,11 +61,11 @@ body {
 */
 
 body{min-height:200vh;}
-.navbar-default{
+.navbar-transparent{
     transition:500ms ease;
     background-color: transparent;
 }
-.navbar-default.scrolled {
+.navbar-transparent.scrolled {
     background: #fff;
     border-bottom: 1px solid #dee2e6;
 }
