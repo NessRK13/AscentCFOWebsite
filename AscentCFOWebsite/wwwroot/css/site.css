@@ -61,7 +61,7 @@ body {
 */
 
 body{min-height:200vh;}
-.navbar-transparent{
+.navbar-transparent {
     transition:500ms ease;
     background-color: transparent;
 }
@@ -80,6 +80,13 @@ header {
     height: auto;
 }
 
+.text-nav-color {
+    color: #e8c547 !important;
+}
+
+a.text-nav-color:hover, a.text-nav-color:focus {
+    color: #004370 !important;
+}
 /*--------------------------------------------*/
 .infoNavbar {
     overflow: hidden;
