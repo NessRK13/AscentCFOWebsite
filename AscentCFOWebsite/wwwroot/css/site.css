@@ -127,3 +127,10 @@ a.text-nav-color:hover, a.text-nav-color:focus {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*Used for displaying information in column format*/
+.dual-column-display {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+}
