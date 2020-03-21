@@ -75,7 +75,7 @@ header {
     width: 100%;
 }
 
-#welcomeImage {
+#welcome-image {
     max-width: 100%;
     height: auto;
 }
@@ -88,12 +88,11 @@ a.text-nav-color:hover, a.text-nav-color:focus {
     color: #004370 !important;
 }
 /*--------------------------------------------*/
-.infoNavbar {
+.info-navbar {
     overflow: hidden;
     background-color: #004370;
     border-top: 1px solid #001870;
     bottom: 0;
-    position: fixed;
     text-align: center;
     width: 100%;
     padding-right: 15px;
@@ -102,7 +101,7 @@ a.text-nav-color:hover, a.text-nav-color:focus {
     margin-left: auto;
 }
 
-.infoNavbar a {
+.info-navbar a {
     color: #f2f2f2;
     text-align: center;
     padding: 20px 16px;
@@ -110,7 +109,7 @@ a.text-nav-color:hover, a.text-nav-color:focus {
     font-size: 17px;
 }
 
-.infoNavbar a:hover {
+.info-navbar a:hover {
     background: #e8c547;
     color: #004370;
 }
