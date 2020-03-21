@@ -2,28 +2,196 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">It's a New Day!</h1>
-    <h2>Are you ready to climb to your potential?</h2>
-    <p>We provide an integrated operation / finance solution to drive your business' growth.</p><br />
+<!--This corresponds to the RenderSection titled Image in the Layout page-->
+@section Image {
+    <div class="image-container">
+        <img id="welcome-image" src="~/Images/mountain_final-1@0,25x.png" alt="" />
+        <div class="image-text-position">
+            <h1>The Catalyst that Improves Your Profitability</h1>
+            <h5>Clear Path Forward &#9702 Increased Profit &#9702 Solid Business Advice</h5>
+        </div>
+    </div>
 
-    <h2>Small Buisness Owners are the Best! And we want to help them for FREE!</h2>
+}
+
+<div class="text-center">
+    <h2>Is Your Business Not Performing Like It Should?</h2>
+</div>
+<div class="dual-column-display">
+    <p>
+        Is your business growth stagnant?<br />
+        Are you confused about what to do next?<br />
+        Are your financial records audit ready?
+    </p>
+    <p>
+        Do you worry about having enough cash to cover your bills?<br />
+        Are you buried in stuff that you "have to do"?<br />
+        Are you plagued with team miscommunications?
+    </p>
 </div>
 
-<p class="lead">
-    Ascent CFO & Advisors, LLC works with driven business owners to improve their profits and cash flow, so they can enjoy the freedom that business ownership should bring.
+<p class="font-weight-bold">Cash Flow Brings Freedom</p>
+<p class="font-italic">
+    Lack of Cash destroys more businesses than anything else.
+    Steady Cash Flow gives you freedom to grow, freedom to enjoy your life.
 </p>
-<br />
+
+<p class="font-weight-bold">Time to Focus on the Important</p>
+<p class="font-italic">
+    Instead of worrying about getting your records right, wondering who owes you
+    money, and hoping you'll turn a profit, you can focus on the next step to success.
+</p>
+
+<p class="font-weight-bold">No Longer Alone</p>
+<p class="font-italic">
+    The life of a business owner can be lonely. You carry burdens you're afraid to
+    share. While others may not understand, you will have a partner on your journey
+    to success.
+</p>
+
+<div class="text-center">
+    <h2>What is next in your new journey to success?</h2>
+</div>
+<p class="font-weight-bold">Schedule a Discovery Session</p>
+<p class="font-italic">
+    Let's face it. It needs to make sense for us to work together.<br /><br />
+    We are seeking a long term relationship with a business that wants to be better
+    and where we can make a difference. You have your own expectations.<br /><br />
+    This 30 minute session makes sure our goals are properly aligned.
+</p>
+
+<p class="font-weight-bold">One Hour Deep Dive</p>
+<p class="font-italic">
+    We want you to start working with us, fully understanding what to expect.
+    That is why we start with a 1 hour Deep Dive into 1 problem your
+    business is facing.<br /><br />
+    At the end of that hour, if you don't find working with us to be valuable,
+    then we will go our separate ways. Otherwise, if we still feel you are a good fit
+    for us, we will move on to the next step.
+</p>
+
+<p class="font-weight-bold">Assessment & Customization</p>
+<p class="font-italic">
+    Sometimes a fresh set of eyes can see things clearer. We perform and business
+    assessment to get a crystal clear picture of where your business is today,
+    so we can help you plan for tomorrow.<br /><br />
+    With hat assessment, we will help you to select the level of services that
+    provides you with what you need for the best value.
+</p>
+
+<div class="text-center">
+    <h2>Why Are We the Catalyst You Need?</h2>
+</div>
 <p>
-    Small business owners need the same support and guidance that CEOs of large corporations get from their CFOs. Unfortunately, they can't afford a full time CFO with a six figure salary.
-    Ascent CFO & Advisors, LLC creates a custom solution (The Path to Profit&trade;) for each client that provides the exact level of support needed by selecting tasks from these seven ares:
+    We are not your traditional type of accountant. If you are just looking for
+    someone to keep your books and do your taxes, you don't want us.<br /><br />
+    We share business knowledge that strengthens small businesses, supports strong
+    families, and energizes thriving communities. We help businesses to expand,
+    so they can be successful and can be part of their family's life.<br /><br />
+    Ready for a change? Want to be better today than yesterday? Can't wait to be
+    excited about your business again?<br /><br />
+    Here we are. What are you waiting for?
 </p>
-<ul>
-    <li>Finance & Accounting Support & Oversight</li>
-    <li>Strategic Planning</li>
-    <li>Systems Evaluation & Optimization</li>
-    <li>Cost & Structure Benchmarking & Improvement</li>
-    <li>Function Forecast&trade; Implementation</li>
-    <li>Continuous Improvement</li>
-    <li>Team building & Accountability</li>
-</ul>
+
+@*<div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div id="my-slider" class="carousel slide"  data-ride="carousel">
+
+                    <!--indicators dot nav-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#my-slider" data-slide-to="1"></li>
+                        <li data-target="#my-slider" data-slide-to="2"></li>
+                    </ol>
+
+                    <!--wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="" alt=""/>
+                            <div class="carousel-caption">
+                                <h1></h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="" alt=""/>
+                            <div class="carousel-caption">
+                                <h1></h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="" alt=""/>
+                            <div class="carousel-caption">
+                                <h1></h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--controls or next and prev buttons-->
+                    <a class="carousel-control-prev" href="#my-slider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#my-slider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>*@
+
+<div class="text-center">
+    <h2>Which Service is Best for You?</h2>
+</div>
+<p class="font-weight-bold">Strategy & Growth</p>
+<p class="font-italic">
+    An opportunity to create a crystal clear growth strategy for your business and
+    have a seasoned financial leader to help you, when you need it, so you can have
+    better employee egagement, more free time to do what you enjoy in your business,
+    and greater growth for your business.
+</p>
+<p class="font-weight-bold">Starting at $1,550/month</p>
+
+<p class="font-weight-bold">Growth & Compliance</p>
+<p class="font-italic">
+    You want the piece of mind; you worry about taxes, cash flow, and why your
+    business isn't growing.<br />
+    We can help you to develop a plan for growth and help you stay on it, while
+    improving your cash situation and giving you the comfort that comes with knowing
+    your business is under control.
+</p>
+<p class="font-weight-bold">Starting at $975/month</p>
+
+<p class="font-weight-bold">Essential Bookkeeping</p>
+<p class="font-italic">
+    Frankly, you hate bookkeeping.<br />
+    You didn't want to do it when your business was small. Now, you are too busy to
+    do it and finding someone trustworthy is time consuming.<br />
+    You just want it taken care of and know that it is done and done right, so it's
+    ready for tax season, that next loan, or just so you know how much cash you need
+    next month.
+</p>
+<p class="font-weight-bold">Starting at $450/month</p>
+
+<div class="text-center">
+    <h2>Want to kick the Tires Some More?</h2>
+</div>
+<br /><br />
+<p>
+    Hey! We understand! You worked hard for your money and want to make sure that you
+    will get a return on your investment. That is how we think too! Being a numbers guy,
+    I know that I want to be able to see what I've gained from the time and money I've
+    invested.
+</p>
+<br /><br />
+<p>
+    Join our Day in the Life of a Business Owner program. This is a 52 week program
+    that provides actionable suggestions on how to improve your business. Each Friday,
+    you will get a new lesson to study and implement during the coming week. The 1st
+    four weeks are free. Once you see how valuable these mini lessons are, you can
+    enroll for the remainder of the year for $95.
+</p>

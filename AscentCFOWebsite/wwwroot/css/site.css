@@ -60,18 +60,39 @@ body {
     MY CODE:
 */
 
-body {
-    background: url(../Images/mountain_final-1@0,25x.png) no-repeat center fixed;
-    background-size: cover;
+body{min-height:200vh;}
+.navbar-transparent {
+    transition:500ms ease;
+    background-color: transparent;
+}
+.navbar-transparent.scrolled {
+    background: #fff;
+    border-bottom: 1px solid #dee2e6;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
+#welcome-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-nav-color {
+    color: #e8c547 !important;
+}
+
+a.text-nav-color:hover, a.text-nav-color:focus {
+    color: #004370 !important;
+}
 /*--------------------------------------------*/
-.infoNavbar {
+.info-navbar {
     overflow: hidden;
     background-color: #004370;
     border-top: 1px solid #001870;
     bottom: 0;
-    position: fixed;
     text-align: center;
     width: 100%;
     padding-right: 15px;
@@ -80,7 +101,7 @@ body {
     margin-left: auto;
 }
 
-.infoNavbar a {
+.info-navbar a {
     color: #f2f2f2;
     text-align: center;
     padding: 20px 16px;
@@ -88,7 +109,27 @@ body {
     font-size: 17px;
 }
 
-.infoNavbar a:hover {
+.info-navbar a:hover {
     background: #e8c547;
     color: #004370;
+}
+/*--------------------------------------------*/
+/*z-index sets the container to be displayed under other aspects of the website*/
+.image-container {
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+.image-text-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Used for displaying information in column format*/
+.dual-column-display {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
 }

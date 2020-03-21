@@ -21,7 +21,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+        <nav class="navbar navbar-transparent navbar-expand-sm navbar-toggleable-sm navbar-light">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/Images/Logos/Icon/AscentLogoFinal_C_Icon.png" alt="Company Logo" width="90" height="90" />
@@ -34,13 +34,16 @@
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-nav-color" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!--This RenderSection is for the Welcome Image-->
+    @RenderSection("Image", required: false)
 
     <div class="container bg-white">
         <partial name="_CookieConsentPartial" />
@@ -50,7 +53,7 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="infoNavbar">
+        <div class="info-navbar">
             &copy; 2019 - Ascent CFO &amp; Advisors, LLC
             <a asp-controller="Home" asp-action="Privacy">Privacy</a>
             <a asp-controller="" asp-action="">Term of Use</a>
